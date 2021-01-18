@@ -1,8 +1,8 @@
-#http://api.openweathermap.org/data/2.5/weather?appid=3ceb1c187d0b745f699d2a9c76c3f5af&q=chennai
+#http://api.openweathermap.org/data/2.5/weather?appid=08ac83007672faa2822e5f9ae0e7ad82&q=allahabad (copy url and check json response)
 import requests, json
 import subprocess
 
-api_key = "3ceb1c187d0b745f699d2a9c76c3f5af"
+api_key = "08ac83007672faa2822e5f9ae0e7ad82" #add api key please prefer your own api key
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 city_name = input("Enter city name : ") 
 complete_url = base_url + "appid=" + api_key + "&q=" + city_name 
@@ -22,8 +22,10 @@ if x["cod"] != "404":
     description = z[0]["description"]
     print(description)
     print("Temperature(K) = {0} | Atmospheric pressure(hPa) = {1} | Humidity (%) = {2}".format(Temp,Pressure,Humid))
-    data = "Weather is "+str(description)+"now"+" "+"Temperature"+str(Temp)+" "+"Pressure"+str(Pressure)+" "+"Humidity"+str(Humid)
+    data = "City name is "+str(city_name)+"Weather is "+str(description)+"now"+" "+"Temperature"+str(Temp)+" "+"Pressure"+str(Pressure)+" "+"Humidity"+str(Humid)
     subprocess.call(["sudo","espeak",data])
     
 else: 
     print(" City Not Found ") 
+    data="Sorry, city Not Found"
+    subprocess.call(["sudo","espeak",data])
