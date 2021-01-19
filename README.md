@@ -22,4 +22,8 @@ Open the terminal on RaspberryPi and enable 3.5mm audio jack port
 ```
 sudo raspi-config
 ```
+![alt text](https://github.com/Anmol17Agarwal/Weather-Reporting-through-Espeak/blob/main/2021-01-18-164618_1920x1080_scrot.png)
+
+#### Configuration Window Opens
+
 ![alt text]()
