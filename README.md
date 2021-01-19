@@ -40,4 +40,4 @@ By running command
 sudo apt-get install espeak
 ```
 
-![alt text]()
+![alt text](https://github.com/Anmol17Agarwal/Weather-Reporting-through-Espeak/blob/main/2021-01-18-164823_1920x1080_scrot.png)
