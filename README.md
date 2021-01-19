@@ -30,4 +30,14 @@ sudo raspi-config
 
 Select System option
 
+![alt text](https://github.com/Anmol17Agarwal/Weather-Reporting-through-Espeak/blob/main/2021-01-18-164630_1920x1080_scrot.png)
+
+Select Audio Option and enable audio jack
+
+#### Install eSpeak Library
+By running command
+```
+sudo apt-get install espeak
+```
+
 ![alt text]()
