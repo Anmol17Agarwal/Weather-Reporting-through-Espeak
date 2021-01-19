@@ -26,4 +26,8 @@ sudo raspi-config
 
 #### Configuration Window Opens
 
+![alt text](https://github.com/Anmol17Agarwal/Weather-Reporting-through-Espeak/blob/main/2021-01-18-164623_1920x1080_scrot.png)
+
+Select System option
+
 ![alt text]()
