@@ -24,15 +24,15 @@ sudo raspi-config
 ```
 ![alt text](https://github.com/Anmol17Agarwal/Weather-Reporting-through-Espeak/blob/main/2021-01-18-164618_1920x1080_scrot.png)
 
-#### Configuration Window Opens
+- #### Configuration Window Opens
 
 ![alt text](https://github.com/Anmol17Agarwal/Weather-Reporting-through-Espeak/blob/main/2021-01-18-164623_1920x1080_scrot.png)
 
-Select System option
+- Select System option
 
 ![alt text](https://github.com/Anmol17Agarwal/Weather-Reporting-through-Espeak/blob/main/2021-01-18-164630_1920x1080_scrot.png)
 
-Select Audio Option and enable audio jack
+- Select Audio Option and enable audio jack
 
 #### Install eSpeak Library
 By running command
@@ -41,3 +41,13 @@ sudo apt-get install espeak
 ```
 
 ![alt text](https://github.com/Anmol17Agarwal/Weather-Reporting-through-Espeak/blob/main/2021-01-18-164823_1920x1080_scrot.png)
+ #### Verify audio by entering command
+ ```
+ sudo espeak "Hey,Good Evening Master"
+ ```
+ connect rpi's audio jack with speaker or earphone for better standard.
+ ![alt text](https://github.com/Anmol17Agarwal/Weather-Reporting-through-Espeak/blob/main/2021-01-18-164912_1920x1080_scrot.png)
+ 
+ After running WeatherReporter.py code, it will asked to enter city name.After entering correct city name,you will listen name of city,condition of respective city,temperature,atmospheric pressure and humidity else on entering wrong city,you will listen `city not found` by BOT.
+ 
+ ![alt text]()
